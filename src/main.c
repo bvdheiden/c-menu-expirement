@@ -38,8 +38,8 @@ int main()
 
     while (command != 'q')
     {
-        fflush(stdout);
         print_menu(current_menu);
+        fflush(stdout);
 
         command = getchar();
 
